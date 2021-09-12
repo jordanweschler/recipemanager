@@ -1,0 +1,31 @@
+#topBar {
+    width: 100%;
+    height: 20%;
+    background-color: lightgray;
+}
+
+#sideBar {
+    float: left;
+    width: 20%;
+    height: 80%;
+    background-color: gray;
+}
+
+#mainContainer {
+    float: right;
+    width: 80%;
+    height: 80%;
+    background-color: darkgray;
+}
+
+.recipeSelect {
+    border: none;
+    text-align: left;
+    float: left;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.recipeSelect:hover {
+    background-color: gray;
+}
