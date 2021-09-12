@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+let app = require('../index');
+let http = require('http');
+
+const port = 3000;
+
+app.set('port', port);
+
+let server = http.createServer(app);
+
+server.listen(port);

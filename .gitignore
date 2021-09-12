@@ -1,2 +1,5 @@
 # ignore node modules for server
 node_modules
+
+# databse connection information
+login_credentials.js
